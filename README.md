@@ -55,6 +55,8 @@ Run the script
 python3 setup_free_claude_code.py
 ```
 
+**Note:** If you want to use the .env file in the ```free-claude-code``` repo, then either delete .env file in ~/.fcc/.env or update ~/.fcc/.env to have the same credentials as the .env file in your repo. Without this step DeepSeek will give configuration error in http://127.0.0.1:8082/admin panel.
+
 ## 2. Prerequisites
 
 Before starting, ensure you have:
@@ -118,6 +120,8 @@ There are two configuration files to set up:
 ### 5.1 Project-Level `.env` File
 
 Create or edit `free-claude-code/.env`:
+
+**Note:** If you want to use the .env file in the ```free-claude-code``` repo, then either delete .env file in ~/.fcc/.env or update ~/.fcc/.env to have the same credentials as the .env file in your repo. Without this step DeepSeek will give configuration error in http://127.0.0.1:8082/admin panel.
 
 ```bash
 # free-claude-code/.env
